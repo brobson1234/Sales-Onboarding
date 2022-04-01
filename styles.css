@@ -28,6 +28,7 @@ h4{
 
 body{
   padding: 20px;
+  background-color: white;
 }
 
 img{
@@ -40,6 +41,6 @@ img{
 }
 
 h2 span {
-    /* background:#fff; */
+    background:white;
     padding:0 10px;
 }
