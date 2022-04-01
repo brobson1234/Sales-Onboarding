@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+  <title>Onboarding Recap Email</title>
+</head>
+
+<body>
+  <img src="Images/SETWorks Logo-color.png" alt="SETWorks Logo">
+
+  <h1>SETWorks Onboarding Recap Articles</h1>
+
+  <div>
+    <h3>Workflow Articles</h3>
+    <h4>Intake</h4>
+    <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/create-a-new-consumer'>Create a New Consumer</a>" data-category="Intake"> Create a New Consumer</label><br>
+    <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/managing-intakes-and-referrals-in-setworks'>Managing Intakes and Referrals in SETWorks</a>" data-category="Intake"> Managing Intakes and Referrals
+      in SETWorks</label>
+  </div>
+
+  <div>
+    <h4>Authorizations</h4>
+    <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/create-a-new-consumer'>Authorization Overview</a>" data-category="Authorizations"> Authorization Overview</label><br>
+    <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/create-a-new-consumer'>Authorization Limits</a>" data-category="Authorizations"> Authorization Limits</label><br>
+    <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/create-a-new-consumer'>View or Edit Authorizations</a>" data-category="Authorizations"> View or Edit Authorizations</label><br>
+    <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/create-a-new-consumer'>Authorization Groups</a>" data-category="Authorizations"> Authorization Groups</label><br>
+  </div>
+
+  <div>
+    <h4>Goals</h4>
+    <label><input type="checkbox" value="Dracular" data-category="Goals"> Adding Outcomes & Goals</label><br>
+    <label><input type="checkbox" value="Trainspotting" data-category="Goals"> Goal Types (Support Webinar)</label><br>
+  </div>
+
+  <div>
+    <h4>Scheduling</h4>
+    <label><input type="checkbox" value="Dracular" data-category="Scheduling"> Create a Billable Group Appointment – The Basics</label><br>
+    <label><input type="checkbox" value="Trainspotting" data-category="Scheduling"> Create an Individual Appointment – The Basics </label><br>
+  </div>
+
+  <h2><span>Copy From Below and Paste Into Email</span></h2>
+
+  <div id="checkbox-list" class="group-containers">
+    <p>Hi all,
+      <br>
+      <br>
+      I wanted to provide a recap of what we discussed during our latest working session and provide some additional resources for your review.
+    </p>
+    <h5>What We Discussed & Additional Resources:</h5>
+    <div id="Intake-container" class="group-containers">
+      <strong>Intake</strong>
+    </div>
+    <div id="Authorizations-container" class="group-containers">
+      <strong>Authorizations</strong>
+    </div>
+    <div id="Goals-container" class="group-containers">
+      <strong>Goals</strong>
+    </div>
+    <div id="Scheduling-container" class="group-containers">
+      <strong>Scheduling</strong>
+    </div>
+
+  </div>
+</body>
+
+
+</html>

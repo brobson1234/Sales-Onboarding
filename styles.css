@@ -1,0 +1,45 @@
+H1{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  color: #DE3514;
+}
+
+h2{
+  font-family: 'Cabin', sans-serif;
+  color: #DE3514;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+h3{
+  font-family: 'Cabin', sans-serif;
+  color: #8080FF;
+  font-size: 1.5em;
+}
+
+h4{
+  font-family: 'Cabin', sans-serif;
+  color: #AF1500;
+  font-size: 1.25em;
+}
+
+body{
+  padding: 20px;
+}
+
+img{
+  width: 10%;
+  text-align: center;
+}
+
+.group-containers{
+  display: none;
+}
+
+h2 span {
+    background:#fff;
+    padding:0 10px;
+}
