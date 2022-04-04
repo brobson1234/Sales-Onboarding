@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="index.js"></script>
 
@@ -16,38 +17,202 @@
 
 <body>
   <img src="Images/SETWorks Logo-color.png" alt="SETWorks Logo">
-
-  <h1>SETWorks Onboarding Recap Articles</h1>
-
-  <div>
+  <section>
+    <h1>SETWorks Onboarding Recap Articles</h1>
     <h3>Workflow Articles</h3>
-    <h4>Intake</h4>
-    <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/create-a-new-consumer'>Create a New Consumer</a>" data-category="Intake"> Create a New Consumer</label><br>
-    <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/managing-intakes-and-referrals-in-setworks'>Managing Intakes and Referrals in SETWorks</a>" data-category="Intake"> Managing Intakes and Referrals
-      in SETWorks</label>
-  </div>
+  </section>
 
-  <div>
-    <h4>Authorizations</h4>
-    <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/authorization-overview'>Authorization Overview</a>" data-category="Authorizations"> Authorization Overview</label><br>
-    <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/authorization-limits'>Authorization Limits</a>" data-category="Authorizations"> Authorization Limits</label><br>
-    <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/view-or-edit-authorizations'>View or Edit Authorizations</a>" data-category="Authorizations"> View or Edit Authorizations</label><br>
-    <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/authorizatoin-groups'>Authorization Groups</a>" data-category="Authorizations"> Authorization Groups</label><br>
-  </div>
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4">
+          <div>
+            <h4>Intake</h4>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/create-a-new-consumer'>Create a New Consumer</a>" data-category="Intake"> Create a New Consumer</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/managing-intakes-and-referrals-in-setworks'>Managing Intakes and Referrals in SETWorks</a>" data-category="Intake"> Managing Intakes and
+              Referrals
+              in SETWorks</label>
+          </div>
 
-  <div>
-    <h4>Goals</h4>
-    <!-- <label><input type="checkbox" value="Dracular" data-category="Goals"> Adding Outcomes & Goals</label><br> -->
-    <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/monthly-support-webinar-november-2021-goal-types'>Goals & Goal Types</a>"  data-category="Goals"> Goals & Goal Types (Support Webinar)</label><br>
-    <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/goal-types#How_Do_I_Configure_and_Use_Goal_Types'>Goal Types</a>"  data-category="Goals"> Goal Types (Article)</label><br>
-    <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/managing-consumer-goals-and-outcomes'>Managing Consumer Goals & Outcomes</a>"  data-category="Goals"> Managing Consumer Goals & Outcomes</label><br>
-  </div>
+          <div>
+            <h4>Authorizations</h4>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/authorization-overview'>Authorization Overview</a>" data-category="Authorizations"> Authorization Overview</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/authorization-limits'>Authorization Limits</a>" data-category="Authorizations"> Authorization Limits</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/view-or-edit-authorizations'>View or Edit Authorizations</a>" data-category="Authorizations"> View or Edit Authorizations</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/authorizatoin-groups'>Authorization Groups</a>" data-category="Authorizations"> Authorization Groups</label><br>
+          </div>
 
-  <div>
-    <h4>Appointments & Scheduling</h4>
-    <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/create-a-billable-group-appointment'>Create a Billable Group Appointment – The Basics</a>" data-category="Scheduling"> Create a Billable Group Appointment – The Basics</label><br>
-    <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/create-an-appointment#What_is_an_appointment_How_do_I_create_an_Appointment_One-Time_or_Recurring'>Create an Individual Appointment – The Basics</a>" data-category="Scheduling"> Create an Individual Appointment – The Basics</label><br>
-  </div>
+          <div>
+            <h4>Goals</h4>
+            <!-- <label><input type="checkbox" value="Dracular" data-category="Goals"> Adding Outcomes & Goals</label><br> -->
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/monthly-support-webinar-november-2021-goal-types'>Goals & Goal Types</a>" data-category="Goals"> Goals & Goal Types (Support
+              Webinar)</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/goal-types#How_Do_I_Configure_and_Use_Goal_Types'>Goal Types</a>" data-category="Goals"> Goal Types (Article)</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/managing-consumer-goals-and-outcomes'>Managing Consumer Goals & Outcomes</a>" data-category="Goals"> Managing Consumer Goals &
+              Outcomes</label><br>
+          </div>
+
+          <div>
+            <h4>Appointments & Scheduling</h4>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/create-a-billable-group-appointment'>Create a Billable Group Appointment – The Basics</a>" data-category="Scheduling"> Create a Billable
+              Group Appointment – The Basics</label><br>
+            <label><input type="checkbox"
+                value="<a href='https://support.set-works.com/portal/en/kb/articles/create-an-appointment#What_is_an_appointment_How_do_I_create_an_Appointment_One-Time_or_Recurring'>Create an Individual Appointment – The Basics</a>"
+                data-category="Scheduling"> Create an Individual Appointment – The Basics</label><br>
+          </div>
+        </div>
+        <div class="col-4">
+          <div>
+            <h4>Documentation (Activity Records)</h4>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/monthly-support-webinar-august-2021'>Individual Records - Support Webinar</a>" data-category="Documentation"> Individual Records - Support
+              Webinar</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/monthly-support-webinar-july-2021-group-records'>Group Records - Support Webinar</a>" data-category="Documentation"> Group Records - Support
+              Webinar</label><br>
+            <label><input type="checkbox"
+                value="<a href='https://support.set-works.com/portal/en/kb/articles/create-a-billable-group-activity-record#How_do_I_complete_a_Billable_Group_Activity_Record_in_SETWorks'>Create a Billable Group Activity Record</a>"
+                data-category="Documentation"> Create a Billable Group Activity Record</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/create-an-activity-record#Where_can_I_access_and_create_Activity_Records_within_SETWorks'>Create an Activity Record - The Where</a>"
+                data-category="Documentation"> Create an Activity Record - The Where</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/intervention-assessment-keys-the-what#What_are_InterventionAssessment_Keys'>Intervention/Assessment Keys - The What</a>"
+                data-category="Documentation"> Intervention/Assessment Keys - The What</label><br>
+            <label><input type="checkbox"
+                value="<a href='https://support.set-works.com/portal/en/kb/articles/sign-c#How_Do_I_Use_the_Sign__Close_Feature_to_Sign_My_Activity_Record>How Do I Use the Sign & Close Feature to Sign My Activity Record?</a>"
+                data-category="Documentation"> How Do I Use the Sign & Close Feature to Sign My Activity Record?</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/signing-activity-records#How_do_I_sign_my_activity_record'>Signing Activity Records v2.0</a>" data-category="Documentation"> Signing
+              Activity Records v2.0</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/protocol-custom-plan-questions-the-what#What_are_ProtocolCustom_Plan_Questions'>Protocol/Custom Plan Questions - The What</a>"
+                data-category="Documentation"> Protocol/Custom Plan Questions - The What</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/protocol-custom-plan-questions-documentation'>Protocol/Custom Plan Questions - Documentation</a>" data-category="Documentation">
+              Protocol/Custom Plan Questions - Documentation</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/protocol-custom-plan-questions-completion-checking'>Protocol/Custom Plan Questions - Completion Checking</a>" data-category="Documentation">
+              Protocol/Custom Plan Questions - Completion Checking</label><br>
+            <label><input type="checkbox"
+                value="<a href='https://support.set-works.com/portal/en/kb/articles/group-activity-record-complete-incomplete-logic#How_Does_SETWorks_Determine_if_a_Record_is_Complete'>Billable Group Activity Record Complete/Incomplete Logic</a>"
+                data-category="Documentation"> Billable Group Activity Record Complete/Incomplete Logic</label><br>
+          </div>
+
+          <div>
+            <h4>Activity Record Review/QA Process</h4>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/authorization-overview'>Authorization Overview</a>" data-category="QA"> Placeholder</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/authorization-limits'>Authorization Limits</a>" data-category="QA"> Placeholder</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/view-or-edit-authorizations'>View or Edit Authorizations</a>" data-category="QA"> Placeholder</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/authorizatoin-groups'>Authorization Groups</a>" data-category="QA"> Placeholder</label><br>
+          </div>
+
+        </div>
+        <div class="col-4">
+          <div>
+            <h4>Forms</h4>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/monthly-support-webinar-march-and-april-2022-forms'>Forms Support Webinar (2022)</a>" data-category="Forms"> Forms Support Webinar
+              (2022)</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/forms-enhancements-fy22-q2#Major_Forms_Enhancements'>Forms Enhancements - Fall 2021</a>" data-category="Forms"> Forms Enhancements - Fall
+              2021</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/form-requirements#What_is_the_Form_Requirements_feature_and_how_does_it_work'>Form Requirements</a>" data-category="Forms"> Form
+              Requirements</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/isp-acknowledgement-forms-10-8-2021#What_is_the_recommended_way_to_collect_acknowledgements_for_ISPs'>ISP Acknowledgement Forms</a>"
+                data-category="Forms"> ISP Acknowledgement Forms</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/multi-signatories#What_is_the_Multi-Signatories_Feature_and_How_Do_I_Use_It'>Multi-Signatories</a>" data-category="Forms">
+              Multi-Signatories/label><br>
+              <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/restricted-fields'>Restricted Fields</a>" data-category="Forms"> Restricted Fields</label><br>
+              <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/draft-mode#How_Do_I_Save_a_Form_as_a_Draft'>Save a Form as a Draft</a>" data-category="Forms"> Save a Form as a Draft</label><br>
+              <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/working-with-forms-9-8-2021#Forms_are_available_in_several_areas_within_SETWorks'>Working with Forms</a>" data-category="Forms"> Working
+                with Forms</label><br>
+              <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/confidential-forms'>Confidential Forms</a>" data-category="Forms"> Confidential Forms</label><br>
+              <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/abilityone'>AbilityOne Functionality in SETWorks</a>" data-category="Forms"> AbilityOne Functionality in SETWorks</label><br>
+              <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/missouri-incident-report'>Missouri Incident Report</a>" data-category="Forms"> Missouri Incident Report</label><br>
+          </div>
+
+          <div>
+            <h4>Misc. Workflows</h4>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/setworks-training-guide'>SETWorks Training Guide</a>" data-category="Misc"> SETWorks Training Guide</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/mo-tcm-training-a-new-administrator-10-2-2022#How_can_I_train_my_new_Manager_on_SETWorks'>Training Plan - Manager</a>" data-category="Misc">
+              Training Plan - Manager</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/monthly-support-webinar-may-2021-tasks'>Tasks Webinar</a>" data-category="Misc"> Tasks Webinar</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/monthly-support-webinar-october-2021-electronic-billing'>Ebilling Webinar</a>" data-category="Misc"> Ebilling Webinar</label><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h3>Configuration / Administrator Articles</h3>
+  </section>
+
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4">
+          <div>
+            <h4>General</h4>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/monthly-support-webinar-september-2021'>SETWorks Admin for Beginners (Webinar)</a>" data-category="General"> SETWorks Admin for Beginners
+              (Webinar)</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/all-support-webinars#SETWorks_Support_Webinars'>All Support Webinars</a>" data-category="General"> All Support Webinars</label><br>
+          </div>
+
+          <div>
+            <h4>User Maintenance</h4>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/add-a-new-user'>Add a New User</a>" data-category="User"> Add a New User</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/user-maintenance-and-status#How_Do_I_Manage_Users_Staff_in_SETWorks'>User Maintenance and Status</a>" data-category="User"> User Maintenance
+              and Status</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/managing-user-department-s#Manage_Departments_-_Control_Which_Departments_a_User_Has_Access_To'>Managing User Department(s)</a>"
+                data-category="User"> Managing User Department(s)</label><br>
+          </div>
+
+          <div>
+            <h4>Services</h4>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/service-types'>Configuring Service Types</a>" data-category="Services"> Configuring Service Types</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/all-about-the-service-phase-utility#How_do_I_create_services_andor_service_phases'>Service/Phase Utility</a>" data-category="Services">
+              Service/Phase Utility</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/service-rate-changes'>Service Rate Changes</a>" data-category="Services"> Service Rate Changes</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/variable-rates'>Variable Rates</a>" data-category="Services"> Variable Rates</label><br>
+          </div>
+
+        </div>
+        <div class="col-4">
+          <div>
+            <h4>Misc. Utilities</h4>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/consumer-add-edit-wizard#How_do_I_edit_the_tab_options_within_the_Consumer_AddEdit_Wizard'>Consumer Add/Edit Wizard</a>"
+                data-category="MiscU"> Consumer Add/Edit Wizard</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/configuring-states-and-counties-2-12-2021'>Configuring States and Counties</a>" data-category="MiscU"> Configuring States and
+              Counties</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/creating-funding-source-contract'>Creating a Funding Source and Funding Source Contract</a>" data-category="MiscU"> Creating a Funding
+              Source and Funding Source Contract</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/configuring-departments-30-11-2021'>Configuring Departments</a>" data-category="MiscU"> Configuring Departments</label>
+          </div>
+        </div>
+        <!-- <div class="col-4" style="background-color:#DEDEDE;">
+          <div>
+            <h4>Placeholder</h4>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/create-a-new-consumer'>Create a New Consumer</a>" data-category="Intake"> Create a New Consumer</label><br>
+            <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/managing-intakes-and-referrals-in-setworks'>Managing Intakes and Referrals in SETWorks</a>" data-category="Intake"> Managing Intakes and
+              Referrals
+              in SETWorks</label>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h3>Calendly Links</h3>
+  </section>
+
+  <section>
+    <div class="row">
+      <div>
+        <h4>Select a Calendly Link to Include in Your Email</h4>
+        <label><input type="checkbox" value="<a href='https://calendly.com/setworksmat/2-hour-working-session'>2 Hour Working Session</a>" data-category="Calendly"> Mat</label><br>
+        <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/all-support-webinars#SETWorks_Support_Webinars'>2 Hour Working Session</a>" data-category="Calendly"> Preston</label><br>
+        <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/all-support-webinars#SETWorks_Support_Webinars'>2 Hour Working Session</a>" data-category="Calendly"> Jocelyn</label><br>
+        <label><input type="checkbox" value="<a href='https://support.set-works.com/portal/en/kb/articles/all-support-webinars#SETWorks_Support_Webinars'>2 Hour Working Session</a>" data-category="Calendly"> Kevin</label><br>
+
+
+
+      </div>
+    </div>
+    </div>
+  </section>
 
   <h2><span>Copy From Below and Paste Into Email</span></h2>
 
@@ -73,8 +238,37 @@
     <div id="Scheduling-container" class="group-containers">
       <strong>Scheduling</strong>
     </div>
-
+    <div id="Documentation-container" class="group-containers">
+      <strong>Documentation (Activity Records)</strong>
+    </div>
+    <div id="QA-container" class="group-containers">
+      <strong>Activity Record Review/QA Process</strong>
+    </div>
+    <div id="Forms-container" class="group-containers">
+      <strong>Forms</strong>
+    </div>
+    <div id="Misc-container" class="group-containers">
+      <strong>Misc. Items</strong>
+    </div>
+    <div id="General-container" class="group-containers">
+      <strong>General Admin</strong>
+    </div>
+    <div id="User-container" class="group-containers">
+      <strong>User Maintenance</strong>
+    </div>
+    <div id="Services-container" class="group-containers">
+      <strong>Services</strong>
+    </div>
+    <div id="MiscU-container" class="group-containers">
+      <strong>Misc. Utilities</strong>
+    </div>
+    <div id="Calendly-container" class="group-containers">
+      <strong>Finally, feel free to use the link below to find an available time to hold another working session. </strong>
+    </div>
   </div>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
 </body>
 
 
